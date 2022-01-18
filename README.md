@@ -6,7 +6,7 @@ Multiarmed Bandits Algorithms: UCB Linear, Greedy, Uniform
 ### Context
 This project is based on an Obama’s fundraising campaign simulation where we are trying to find the best combinations of a sign-up button and a background media that maximises the number of visitor sign-ups. There are 4 buttons and 6 media available, giving a total of 24 possible combinations. Similar to real life, a budget constraint is imposed by capping the number of combination tries to 100 million views. Each try reflects the results of 100 visitors’ views, and so, we have a maximum of 1 million tries. <br>
 
-<strong> Key objective: </strong> find the best sign-up button and media combination as efficiently as possible.<br>
+<strong> Key objective: </strong> find the best sign-up button and media combination as efficiently as possible.<br><br>
   <strong> Approach:</strong> We choose to adopt a Multi Armed Bandit (MAB) approach instead of A/B split testing which is commonly used to determine best combinations. MAB is more efficient - able to find the best combination faster - as it adapts and shifts towards winning variations throughout the experiment, instead of waiting until the end. <br>
   
 ### Implications & Insights
